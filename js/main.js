@@ -14,6 +14,7 @@ document.getElementById("contact-form").addEventListener("submit", (event) =>{
 });
 
 // 
+  const submit = document.querySelectorbyID("submit-btn")
   document.getElementById('contact-form').addEventListener('submit', async function(event) {
     event.preventDefault(); // Prevent the default form submission behavior
 
@@ -29,7 +30,7 @@ document.getElementById("contact-form").addEventListener("submit", (event) =>{
       });
 
       if (response.ok) {
-        alert('Your message was sent'); // Success message
+        submit.innerText = "Sent"//alert('Your message was sent');  Success message
         form.reset(); // Clear form fields if needed
       } else {
         alert('There was an issue submitting the form. Please try again.');
