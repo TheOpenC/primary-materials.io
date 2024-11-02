@@ -14,7 +14,7 @@ document.getElementById("contact-form").addEventListener("submit", (event) =>{
 });
 
 // 
-  const submit = document.querySelectorbyID("submit-btn")
+  const submit = document.querySelector('#submit-btn')
   document.getElementById('contact-form').addEventListener('submit', async function(event) {
     event.preventDefault(); // Prevent the default form submission behavior
 
