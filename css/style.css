@@ -139,6 +139,7 @@ header,footer {
      padding-top: 75px;
      padding-left: 20px;
      padding-right: 20px;
+     width: 75%;
 }
 
 .bio{
@@ -155,13 +156,15 @@ header,footer {
      padding-right: 20px;
 }
 
-/* individual project */
+/* individual projects */
 .project-container {
      padding-top: 25px;
 }
+
 a{
      color: black;
 }
+
 .project-p{
      line-height: 1.25;
      font-weight: 400;
@@ -180,6 +183,83 @@ a{
      max-width: 700px;
      
 }
+/* ++++++++++++++++++++++++++++++++++++++++++++ */
+/* contact form styling ===================*/
+/* ++++++++++++++++++++++++++++++++++++++++++++ */
+
+*:focus {
+	outline: 0;
+}
+
+/* Add styles to 'container' class */
+
+.container {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	border: 3px solid black;
+	background: white;
+	
+}
+
+/* Add styles to 'label' selector */
+
+label {
+	font-size: 1em;
+	margin-left: 0;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 4.5px dashed green;
+}
+
+/* Add styles to the submit button */
+
+input[type=submit] {
+	background: black;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Add styles for 'focus' property */
+
+input[type=submit]:focus {
+	
+}
+
+/* Style 'hover' property */
+
+input[type=submit]:hover {
+	background: white;
+     color: green;
+     border: 4.5px dashed green;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}
+
 /******************************************
 /* ADDITIONAL STYLES /// RESPONSIVE 
 /*******************************************/

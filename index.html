@@ -45,8 +45,8 @@
 			</section>
 		</main>
 
-		<section id ="projects" class="project-section-container">
-			<h2 id="project-anchor" class="helv-subheading">Projects</h2>
+		<section class="project-section-container">
+			<h2 id="projects" class="helv-subheading">Projects</h2>
 			<!-- return to top arrow @ 31.5px -->
 			<a href="#top"><span class="material-symbols-outlined">
 				arrow_upward_alt
@@ -94,29 +94,50 @@
 		</section>
 
 		<!-- This is the 'About' section -->
-		<section id="about" class="about-section-container">
-			<h2 class="helv-subheading">About</h2>
+		<section class="about-section-container">
+			<h2 id="about" class="helv-subheading">About</h2>
 			<!-- return to top arrow @ 31.5px -->
 			<a href="#top"><span class="material-symbols-outlined">
 				arrow_upward_alt
 			</span></a>
+			<h3 class="helv-title">Bio</h3>
 
-				<p class="project-p">I have a diverse background and foundation in art and technology. Having worked in the NYC fine arts and fabrication world for the last 13 years, I've used a breadth of digital and physical tools to help artists and institutions execute their work. In 2023, I decided to add building websites and applications to that list of skill sets. Now, I'm fully in on tech and closing one door in order to open another into the world of web development.</p>
+				<p class="project-p">I have a diverse background in art and technology. Having worked in the NYC fine arts and fabrication world for the last 13 years, I've used a wide variety of digital and physical tools to help artists and institutions execute their visions. In 2023, I decided to add building websites and applications to that list of skill sets. Now, I'm fully in on tech and exploring the world of web development.</p>
 
-				<p class="project-p">I'm passionate about building lightweight, efficient websites and applications that work seamlessly across devices. My goal is to provide users the same value whether they're surfing the web on their Samsung Smart refrigerator, deprecated iPhone 6, or the newest Windows laptop. My design sense is informed by my lifelong passion for the arts and visual culture. I aim to make deliberate structural text and image choices that directly impact the user's experience. If it doesn't add value, does it need to exist?</p>
+				<p class="project-p">I'm passionate about building lightweight, efficient websites and applications that work seamlessly across devices. My goal is to provide users the same value whether they're surfing the web on their Samsung Smart refrigerator, deprecated iPhone 6, or the newest Windows laptop. My design sense is informed by a lifelong interest in the arts and visual culture. I aim to make deliberate structural text and image choices that impact the user's experience. If it doesn't add value, does it need to exist?</p>
 				
-				<p class="project-p">When I'm taking a break from writing code, you can find me taking photographs with a Nikon F3, going for long bike rides in the city, collecting art books, or building small sculptures out of traditional materials.
+				<p class="project-p">When I'm taking a break from writing code, you can find me shooting photographs with a Nikon F3, taking long bike rides in the city, looking at art, or exploring a new hobby.
 			</p>
 		<!-- End of about -->
 		</section>
 
 		<!-- Contact -->
-		<section id="contact" class="contact-section-container">
-			<h2 class="helv-subheading">Contact</h2>
+		<section class="contact-section-container">
+			<h2 id="contact" class="helv-subheading">Contact</h2>
 			<!-- return to top arrow @ 31.5px -->
 			<a href="#top"><span class="material-symbols-outlined">
 				arrow_upward_alt
 			</span></a>
+			<p class="project-p">Working on something interesting? I'd love to hear about it. Just want to chat? That's fine too, send me a message!</p>
+
+			<div class="contact-form-container">
+
+				<form id="contact-form" method="POST" action="sendmail.php">
+					<label for="contact-form-name">Full Name</label>
+					<input id="contact-form-name" class="form-input" type="text" name="name" required>
+					<br>
+					<label for="contact-form-email">Email</label>
+					<input id="contact-form-email" class="form-input" type="email" name="email" required>
+					<br>
+					<label for="contact-form-message">Message</label>
+					<br>
+					<textarea id="contact-form-message" class="form-input" name="message" cols="30" rows="10" required></textarea>
+					<div class="center">
+						<input type="submit" value="Submit">
+					</div>
+				</form>
+			</div>
+
 
 		</section>
 
