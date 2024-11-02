@@ -256,8 +256,25 @@ input[type=submit]:hover {
 }
 
 /* Align items to center of the 'div' with the class 'center' */
+
+.full-width-center {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}
 .center {
-	text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+#submit-btn{
+     margin-right: 10px;
+}
+#check{
+     font-size: 50px;
+     color: green
+     
 }
 
 /******************************************

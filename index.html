@@ -13,6 +13,9 @@
 		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 		<!-- up arrow icons -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_upward_alt" />
+
+		<!-- submit checkmark -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=check" />
 		
 
 		<!-- external CSS link -->
@@ -132,8 +135,14 @@
 					<label for="contact-form-message">Message</label>
 					<br>
 					<textarea id="contact-form-message" class="form-input" name="message" cols="30" rows="10" required></textarea>
-					<div class="center">
-						<input id="submit-btn" type="submit" value="Submit">
+					<!-- This keeps the submit button and the check centered -->
+					<div class="full-width-center">
+						<div class="center">
+							<input id="submit-btn" type="submit" value="Submit">
+								<span id="check" class="material-symbols-outlined">
+									check
+								</span>
+						</div>
 					</div>
 				</form>
 			</div>
